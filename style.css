@@ -1,0 +1,42 @@
+a{
+    margin-left: 30px;
+}
+.d{
+overflow: hidden;
+padding: 60px 0;
+
+white-space: nowrap;
+position: relative;
+white-space: nowrap; 
+}
+.s{
+display: inline block;
+animation: 5s slide infinite linear;
+white-space: nowrap;
+overflow: hidden; 
+}
+
+@keyframes marquee {
+    from{
+        transform: translateX(0);
+    }
+
+    to{
+        transform: translateX(-50%)
+    }
+    
+}
+.x{
+    border-radius: 20px;
+font-size: 30px;
+    color: rgb(255, 0, 0);
+    width: 40%;
+    height: 40px;
+background-image: none;
+}
+.x:hover{
+background-color: blue;
+color: aqua;
+    cursor: pointer;
+
+}
